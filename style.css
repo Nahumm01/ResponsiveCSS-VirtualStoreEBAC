@@ -62,13 +62,25 @@ section.about{
  background-color: aquamarine;
  padding: 36px;  
  margin: 10px 0 10px;
+ max-width: 1366px;
+ width: 100%;
+}
+
+.products h2, .products p{
+    color: #FFF;
+    padding: 8px;
 }
 
 
 .produto{
     display: grid;
-    grid-template-columns: repeat(3, 32.6%);
+    grid-template-columns: repeat(4, 24.5%);
     column-gap: 1%;
-    row-gap: 5%;
+    row-gap: 1%;
+}
+
+.produto article{
+    max-width: 200px;
+    width: 100%;
 }
 
