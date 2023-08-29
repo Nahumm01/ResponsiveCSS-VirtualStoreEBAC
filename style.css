@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Roboto,sans-serif;
 }
 
 .container{
-    max-width: 1024px;
+    max-width: 1366px;
     width: 100%;
     margin: 0 auto;
 }
@@ -40,15 +41,22 @@ header li a:hover{
 
 .containerGeral{
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 95% 5%;
 }
 
 section.about{
     padding: 20px;
     background-color: beige;
     display: flex;
+    margin-bottom: 15px;
     
 }
+
+main > h2{
+    border-bottom: 2px solid firebrick;
+    margin-bottom: 15px;
+}
+
 
 .about img{
  margin-right: 10px;
@@ -60,27 +68,30 @@ section.about{
 
 .products{
  background-color: aquamarine;
- padding: 36px;  
+ padding: 24px;  
  margin: 10px 0 10px;
- max-width: 1366px;
- width: 100%;
 }
-
-.products h2, .products p{
-    color: #FFF;
-    padding: 8px;
-}
-
 
 .produto{
     display: grid;
     grid-template-columns: repeat(4, 24.5%);
     column-gap: 1%;
-    row-gap: 1%;
 }
 
-.produto article{
-    max-width: 200px;
+.produto button,.produto img{
     width: 100%;
 }
 
+.produto button{
+    border: none;
+    height: 25px;
+    background-color: cornflowerblue;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.produto h3, .produto p{
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 3px;
+}
