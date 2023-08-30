@@ -12,7 +12,7 @@
 }
 
 header {
-  background-color: red;
+  background-color: #CCC;
   padding: 10px;
   max-width: 100%;
   width: 50%;
@@ -45,13 +45,13 @@ section.about {
   display: grid;
   grid-template-columns: 30% 70%;
   padding: 20px;
-  background-color: beige;
+  background-color:#CCC;
   margin-bottom: 15px;
 }
 
 section > h2 {
   border-bottom: 2px solid firebrick;
-  margin-bottom: 15px;
+  margin-bottom: 3px;
 }
 
 .about img {
@@ -67,9 +67,13 @@ section > h2 {
 }
 
 .products {
-  background-color: aquamarine;
+  background-color: #CCC;
   padding: 24px;
   margin: 10px 0 10px;
+}
+
+.products > p{
+    padding: 10px;
 }
 
 .produto {
@@ -89,6 +93,7 @@ section > h2 {
   background-color: cornflowerblue;
   color: #fff;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .produto h3,
